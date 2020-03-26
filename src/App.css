@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.headerBlock {
+  background-color: #34a5da;
+  width: 100%;
+  height: 10vh ;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  padding-left: 5%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+  align-content: space-around;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.bodyBlock {
+  background-color: #222222 ;
+  height: 90vh;
+  width: 100vw;
+
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: space-around;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.objCard {
+  background-color: #ebebeb;
+  width: 80%;
+  height: 40%;
+  margin: 0 10%;
+  padding: 5%;
 }
+
+.changeButtons {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+/* .movieItems {
+  
+} */
